@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐培训机构</title>
+    <style>
+        body{
+            background: #292929 none no-repeat fixed center top;
+            margin: 0;
+        }
+        /* 头部 */
+        .top{
+            width: 1190px;
+            height: 74px;
+            margin: 0 auto;
+            /* background-color: red; */
+       
+        }
+        .top .top-left{
+            width: 225px;
+            height: 74px;
+             float: left;
+        }
+        .top-left img{
+            width:141.72px;
+            height: 50px;
+            margin: 12px;
+        }
+        .top-right{
+            width: 964px;
+            height: 74px;
+            float: right;
+            /* background-color: royalblue; */
+        }
+        .top-right ul{
+            height: 74px;
+            margin: 0;
+            padding: 0;
+           margin-left: 296px;
+           
+        }
+        .top-right li{
+        float: left;
+         list-style: none;
+         margin:0  30px 0;
+         font-size:14px ;
+        color: #848484;
+         height: 74px;
+         line-height: 74px;
+        }
+        .top-right li:hover{
+            cursor: pointer;
+            color: seashell;
+        }
+        /* banner */
+        .banner{
+            width: 100%;
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            background-image : url("https://5949e99dcd15b.t73.qifeiye.com/qfy-content/uploads/2017/06/e6cb3fd68ffff65b2d637d92ac97903a.jpg");
+            position: relative;
+        }
+        .banner .bnl,.bnr{
+            display: block;
+             width: 50px;
+            height: 50px;
+            line-height: 40px;
+            text-align: center;
+            color: #848484;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .banner .bnl{
+           
+           left: 20px;
+        }
+        .banner .bnr{
+        right: 20px;
+        }
+        .banner .bnw{
+            height: 50px;
+            text-align: center;
+            color: rgb(211, 211, 211);
+            text-align: center;
+            font-size: 24px;
+            white-space: nowrap;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        /* mp3*/
+        .mp3{
+            width: 100%;
+            height: 74px;
+            margin: 0 auto;
+            position: relative;
+            background-color: rgba(0, 0, 0, 1);
+        }
+        .mp3 audio{
+            width: 600px;
+            height: 60px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
+
+        }
+        /* 班级设置 */
+        .banji{
+            width: 1190px;
+            height: auto;
+            margin: 0 auto;
+            color:  rgb(211, 211, 211);
+            padding-top: 100px;
+        }
+        
+        .banji .shezhi,.banji .set{
+            display: flex;
+            align-items: center; /*定义body的元素垂直居中*/
+            justify-content: center;
+        }
+        .banji .shezhi{
+            padding: 0 0 10px ;
+        }
+        .banji .xian{
+            width: 60px;
+            border: 2px solid rgb(107, 188, 206);
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 46px;
+        }
+
+        /* 内容 */
+        .banji .nr1{
+            width: 346.6px;
+            height: 475px;
+            float: left;
+            padding: 25px;
+        }
+      
+        .banji .nr1 .nr1-img img{
+            width: 346px;
+            height: 303px;
+        }
+        
+        .banji .nr1 .span a{
+            display: block;
+            width: 332px;
+            font: 18px ;
+            font-family: 微软雅黑;
+            font-weight: normal;
+            padding: 20px 0px 8px;
+            color: #B7B7B7;
+            cursor: pointer;
+            text-decoration: none
+        }
+        .banji .nr1 .span span{
+            color: #7f7f7f;
+             font-size: 13px;
+                
+             word-break: break-all;
+            font-family: 微软雅黑;
+            line-height: 26px;
+        }
+        .banji .nr1:hover span,img{ 
+            cursor: pointer;
+            color:rgb(211, 211, 211);
+        }
+        .nr2{
+            float: left;
+            width: 100%;
+           margin-top: 40px;
+            margin-bottom: 80px;
+        
+          
+        }
+        .nr2 span{
+            display: block;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            padding: 8px 40px;
+            border: 1px solid rgb(209, 209, 209);
+            width: 76px;
+            margin:0 auto;
+        }
+        .nr2 span:hover{
+            border-color: #B7B7B7;
+            cursor: pointer;
+            color:#B7B7B7;
+        }
+        /* 海报 */
+        .haibao{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            color:  rgb(211, 211, 211);
+            padding-top: 100px;
+        }
+        .haibao .haibao-img{
+           float: left;
+            width: 50%;
+        }
+        .haibao .haibao-img img{
+            width: 100%;
+        }
+        .haibao .haibao-jieshi{
+            float: right;
+            width: 50%;
+          
+        }
+        .haibao .haibao-jieshi .span span{
+            color: #7f7f7f;
+             font-size: 13px;
+                
+             word-break: break-all;
+            font-family: 微软雅黑;
+            line-height: 26px;
+        }
+        .haibao .shezhi,.haibao .set{
+            display: flex;
+            align-items: center; /*定义body的元素垂直居中*/
+            justify-content: center;
+        }
+        .haibao .shezhi{
+            margin-top: 300px;
+            padding: 0 0 10px ;
+        }
+        .haibao .xian{
+            width: 60px;
+            border: 2px solid rgb(107, 188, 206);
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 46px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 开头 -->
+    <div class="top">
+        <div class="top-left">
+            <img src="./img/aHR0cHM6Ly81OTQ5ZTk5ZGNkMTViLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvMDNhN2M1OTVmOWRjNmM3NjkwNmM5ZTNhMDRjNGY5NWItOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp" alt="">
+        </div>
+        <div class="top-right">
+            <ul>
+                <li>首页</li>
+                <li>关于我们</li>
+                <li>课程设计</li>
+                <li>动态资讯</li>
+                <li>师资团队</li>
+                <li>在线报名</li>
+            </ul>
+        </div>
+        
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        
+        <span class="bnw">THE ROAD TO MUSIC WITH YOU</span>
+        <span class="bnl"><</span>
+        <span class="bnr">></span>
+    </div>
+    <!-- MP3 -->
+    <div class="mp3">
+        <audio src="./img/一生所爱.mp3" controls="controls"></audio>
+    </div>
+    <!-- 班级设置 -->
+    <div class="banji">
+        <div class="shezhi"><span>班级设置</span></div>
+        <div class="set"> <span>Class set</span></div>
+        <div class="xian"></div>
+        <!-- 内容 -->
+        <div class="nr">
+            <div class="nr1">
+                <div class="nr1-img"><img src="./img/1.webp" alt=""></div>
+                <div class="span"><a href="">架子鼓培训</a><br> <span>流行音乐是根据英语Popular Music翻译过来的。按照汉语词语表面去理解，...</span></div>
+            </div>
+            <div class="nr1">
+                <div class="nr1-img"><img src="./img/2.webp" alt=""></div>
+                <div class="span"><a href="">古筝培训</a><br> <span>流行音乐是根据英语Popular Music翻译过来的。按照汉语词语表面去理解，...</span></div>
+            </div>
+            <div class="nr1">
+                <div class="nr1-img"><img src="./img/3.webp" alt=""></div>
+                <div class="span"><a href="">钢琴培训</a> <br><span>钢琴是一种键盘乐器，用键拉动琴槌以敲打琴弦。从十八世纪末以来，在欧洲及美国，钢琴...</span></div>
+            </div>
+            <div class="nr2">
+                <span>了解详情 →</span>
+            </div>
+        </div>
+    </div>
+    <!-- 海报 -->
+    <div class="haibao">
+        <div class="haibao-img">
+            <img src="./img/4.webp" alt="">
+        </div>
+        <div class="haibao-jieshi">
+        <div class="shezhi"><span>关于我们</span></div>
+        <div class="set"> <span>About</span></div>
+        <div class="xian"></div>
+        <div class="span"> <span>某某音乐艺术培训是经国家正规注册的专业音乐考前培训/儿童成人音乐教育机构，坐落于某某区某某路00号，教学团队核心人员均为在音乐培训行业从业多年的资深人士，全部来自国内各大音乐学院。机构主要提供成人及少儿音乐培训，音乐艺考生考前辅导，拥有成熟的成人/儿童/艺考生的声乐培训体系、器乐培训体系，旨在通过科学的教学方法，专业的课程设置，让每个学员在获得专业音乐技能、达到考学目的的同时具备良好的音乐素养和修养，具备感知音乐美好的能力。</span></div>
+        </div>
+    </div>
+</body>
+</html>
