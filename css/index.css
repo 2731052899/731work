@@ -1,0 +1,434 @@
+body{
+            background: #292929 none no-repeat fixed center top;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            background-image : url("https://5949e99dcd15b.t73.qifeiye.com/qfy-content/uploads/2017/06/e6cb3fd68ffff65b2d637d92ac97903a.jpg");
+        }
+    
+        /* 头部 */
+        .tp{
+            width: 100%;
+            background-color: #292929;
+        }
+        .top{
+            width: 1190px;
+            height: 74px;
+            margin: 0 auto;
+            /* background-color: red; */
+       
+        }
+          
+        .top .top-left{
+            width: 225px;
+            height: 74px;
+             float: left;
+        }
+        .top-left img{
+            width:141.72px;
+            height: 50px;
+            margin: 12px;
+        }
+        .top-right{
+            width: 964px;
+            height: 74px;
+            float: right;
+            /* background-color: royalblue; */
+        }
+        .top-right ul{
+            height: 74px;
+            margin: 0;
+            padding: 0;
+           margin-left: 296px;
+           
+        }
+        li{
+             list-style: none;
+        }
+        a{
+  text-decoration: none;
+   color:rgb(211, 211, 211);
+        }
+        .top-right li a{
+         
+        float: left;
+        
+       
+         margin:0  30px 0;
+         font-size:14px ;
+        color: #848484;
+         height: 74px;
+         line-height: 74px;
+        }
+        .top-right li a:hover{
+            cursor: pointer;
+            color: seashell;
+        }
+        /* banner */
+        .banner{
+            width: 100%;
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            background-image : url("https://5949e99dcd15b.t73.qifeiye.com/qfy-content/uploads/2017/06/e6cb3fd68ffff65b2d637d92ac97903a.jpg");
+       
+        }
+        .banner .bnl,.bnr{
+            display: block;
+             width: 50px;
+            height: 50px;
+            line-height: 40px;
+            text-align: center;
+            color: #848484;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .banner .bnl{
+           
+           left: 20px;
+        }
+        .banner .bnr{
+        right: 20px;
+        }
+        .banner .bnw{
+            height: 50px;
+            text-align: center;
+            color: rgb(211, 211, 211);
+            text-align: center;
+            font-size: 24px;
+            white-space: nowrap;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        /* mp3*/
+        .mp3{
+            width: 100%;
+            height: 74px;
+            margin: 0 auto;
+            position: relative;
+            background-color: rgba(0, 0, 0, 1);
+        }
+        .mp3 audio{
+            width: 600px;
+            height: 65px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
+
+        }
+        /* 班级设置 */
+        .banji,.teach,.baoming{
+            background-color: #292929;
+            float: left;
+            width: 100%;
+            color:  rgb(211, 211, 211);
+            padding-top:100px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        /* .banji .shezhi,.banji .set,.teach .shezhi,.teach .set{ */
+        .shezhi,.set{    
+            display: flex;
+            align-items: center; /*定义body的元素垂直居中*/
+            justify-content: center;
+        }
+        .set{
+            font-size: 13px;
+        }
+        .shezhi{
+            font-size: 18px;
+            padding: 0 0 10px ;
+        }
+        .xian{
+            width: 60px;
+            border: 2px solid rgb(107, 188, 206);
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 46px;
+        }
+        .nrbtl,.nrbtr{
+            position: absolute;
+            display: block;
+             width: 50px;
+            height: 50px;
+            line-height: 40px;
+            text-align: center;
+            color: #848484;
+            font-size: 50px;         
+            background-color: rgba(0, 0, 0, 0);
+             top: 50%;
+        }
+        .nrbtl{
+           left: 120px;
+        }
+        .nrbtr{
+        right: 120px;
+        }
+        /* 内容 */
+      .nr{
+          width: 1190px;
+          margin: 0 auto;
+     
+      }
+      
+       .nr1{
+              
+            width: 346.6px;
+            height: 475px;
+            float: left;
+            padding:0 25px 30px; 
+        }
+        
+        .nr1 .nr1-img{
+            width: 346px;
+            height: 303px;
+            overflow: hidden;
+             display: flex;
+            align-items: center; /*定义body的元素垂直居中*/
+            justify-content: center;
+        }
+        .nr1 .nr1-img img{
+          
+            width: 100%;
+        }
+        .nr1 .span a{
+            display: block;
+            width: 332px;
+            font: 18px ;
+            font-family: 微软雅黑;
+            font-weight: normal;
+            padding: 20px 0px 8px;
+            color: #B7B7B7;
+            cursor: pointer;
+            text-decoration: none
+        }
+        .nr1 .span span{
+            color: #7f7f7f;
+             font-size: 13px;
+                
+             word-break: break-all;
+            font-family: 微软雅黑;
+            line-height: 26px;
+        }
+        .nr1:hover span,img{ 
+            cursor: pointer;
+            color:rgb(211, 211, 211);
+        }
+        .nr1:hover img{
+            width: 110%;
+            transition:0.5s ease-in;
+        }
+        .nr2{
+            float: left;
+            width: 100%;
+           margin-top: 40px;
+            margin-bottom: 80px;
+        
+          
+        }
+        .nr2 span{
+            display: block;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            padding: 8px 40px;
+            border: 1px solid rgb(209, 209, 209);
+            width: 76px;
+            margin:0 auto;
+        }
+        .nr2 span:hover{
+            border-color: #B7B7B7;
+            cursor: pointer;
+            color:#B7B7B7;
+        }
+        /* 海报 */
+        .haibao{
+            width: 100%;
+            height: 634px;
+            background-color: rgb(0, 0, 0);
+            float: left;
+            margin: 0 auto;
+            color:  rgb(211, 211, 211);
+          
+            
+        }
+        .haibao .haibao-img{
+           float: left;
+            width: 50%;
+        }
+        .haibao .haibao-img img{
+            width: 100%;
+        }
+        .haibao .haibao-jieshi{
+            float: right;
+            width: 50%;
+          
+        }
+       
+       .haibao .haibao-jieshi .span{
+            width: 570px;
+            margin: 0 auto;
+       }
+        .haibao .haibao-jieshi .span span{
+            
+            color: #7f7f7f;
+            font-size: 13px;         
+            word-break: break-all;
+            font-family: 微软雅黑;
+            line-height: 26px;
+        }
+        .haibao .shezhi,.haibao .set{
+            display: flex;
+            align-items: center; /*定义body的元素垂直居中*/
+            justify-content: center;
+        }
+        .haibao .shezhi{
+            margin-top: 150px;
+            padding: 0 0 10px ;
+        }
+        .haibao .xian{
+            width: 60px;
+            border: 2px solid rgb(107, 188, 206);
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 46px;
+        }
+        /* 师资力量 */
+        .teach .nr .nr1 img{
+            width: 330px;
+            height: 320px;
+        }
+        .teach .nr .nr1:hover{
+
+    
+            box-shadow:
+             /* 0px -10px 0px 0px rgba(0,0,0,0),   上边阴影  透明 */
+
+                /* -10px 0px 0px 0px rgba(0,0,0,0),   左边阴影  透明 */
+                
+                /* 10px 0px 0px 0px rgba(0,0,0,0),    右边阴影  透明 */
+                
+                0px 10px 50px 0px rgba(0,0,0,0.1);
+        }
+        /* zixun */
+        .zixun {
+            float: left;
+            width: 100%;
+            color:  rgb(211, 211, 211);
+            padding-top:100px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .zixun .boxs .box{
+            width:1180px ;
+            height: 150px;
+            background-color: rgba(96,96,96,0.3);
+            margin: 0 auto;
+            display: flex;
+            align-items: center; /*定义body的元素垂直居中*/
+            justify-content: center;
+        }
+        .zixun .boxs .box .left{
+            float: left;
+            
+        }
+        .zixun .boxs .box .left .date1{
+            font-size: 24px;
+            
+            color: #cccccc;
+        }
+        .zixun .boxs .box .left .date2{
+            font-size: 14px;
+        }
+        .zixun .boxs .box .right{
+            float: right;
+            margin-left: 50px;
+        }
+        .zixun .boxs .box .right a{
+            font-size: 16px;
+            color: #ffffff;
+        }
+        .zixun .boxs .box .right span{
+            font-size: 12px;
+        }
+        .zixun .boxs .box  .hid{
+              font-size: 30px;
+            font-weight: 900;
+             margin-left: 30px;
+           display: none;
+        }
+        .zixun .boxs .box:hover  .hid{
+           
+            
+            display: block;
+            
+        }
+        .zixun .boxs .box:hover {
+            background: rgba(0, 0, 0, 0);
+        }
+        .zixun .boxs .box:hover:hover .left{
+            margin-left: -50px;
+            transition:  0.5s;
+        }
+        .zixun .boxs hr{
+            width: 1180px;
+            margin: 0 auto;
+            border: none;
+            height: 1px;
+            color: rgb(81, 80, 82);
+        }
+        /* 报名 */
+        .baoming{
+            height: 500px;
+        }
+         .baoming .left{
+             float: left;
+             margin-left: 200px;
+         }
+        .baoming .right{
+            float: right;
+          font-size: 14px;
+          color: rgb(136, 136, 136);
+                   margin-right: 150px;
+               
+        }
+    
+        .baoming .right .tm{
+            float: left;
+     
+            margin-right: 20px;
+        }
+        /* bottom */
+        .bottom{
+            width: 100%;
+            height: 200px;
+            float: left;
+            background-color: #292929;
+        
+        }
+        .bottom hr{
+            border: 1px solid #cccccc;
+            
+        }
+        .bottom .img{
+            width: 300px;
+            height: 100px;
+             margin: 0 auto;
+             margin-top: 50px;
+        }
+        .bottom .img img{
+            width: 100%;
+        }
