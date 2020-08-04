@@ -1,0 +1,48 @@
+body{
+            
+            background: #292929;
+            position: relative;
+        }
+        .nrbox{
+            width: 100%px;
+            height: 666px;
+        }
+        .nr{
+            width: 1280px;
+            height: 566px;
+        }
+
+        .left{
+            position: absolute;
+            width: 590px;
+            height: 566px;
+            float: left;
+            padding: 72PX 40px;
+        }
+        .right{
+            width: 590px;
+            height: 566px;
+            float: right;
+            margin-top: 150px;
+            margin-right: 5%;
+        }
+        .right .sp1{
+           
+            display: block;
+            font-size: 18px;
+            color: #FCFCFC;
+           margin-bottom: 10px;
+           
+        }
+        .right .sp2{
+             display: block;
+            font-size: 13px;
+            color: #BCBCBC;
+        }
+        .right .sp3{
+            display: block;
+            width: 100%;
+            margin-top: 46px;
+            font-size: 12px;
+            color: #888888;
+        }
