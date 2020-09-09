@@ -138,6 +138,9 @@ body{
             padding-top:100px;
             margin: 0 auto;
             position: relative;
+            
+            /* display: none; */
+            
         }
         
         /* .banji .shezhi,.banji .set,.teach .shezhi,.teach .set{ */
@@ -191,6 +194,7 @@ body{
             height: 475px;
             float: left;
             padding:0 25px 30px; 
+            margin-top: 200px;
         }
         
         .nr1 .nr1-img{
@@ -268,9 +272,19 @@ body{
         .haibao .haibao-img{
            float: left;
             width: 50%;
+            height: 634px;
+            overflow: hidden;
+            position: relative;
+            
+        }
+        .haibao-img-box{
+            position: absolute;
+            width: 300%;
+            transition: 1s ease-in;
         }
         .haibao .haibao-img img{
-            width: 100%;
+            width: 33.333%;
+            float: left;
         }
         .haibao .haibao-jieshi{
             float: right;
